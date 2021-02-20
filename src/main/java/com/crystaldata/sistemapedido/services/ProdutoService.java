@@ -5,8 +5,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.crystaldata.sistemapedido.domain.Categoria;
-import com.crystaldata.sistemapedido.domain.Produto;
+import com.crystaldata.sistemapedido.entities.Categoria;
+import com.crystaldata.sistemapedido.entities.Produto;
 import com.crystaldata.sistemapedido.repositories.ProdutoRepository;
 import com.crystaldata.sistemapedido.services.exceptions.ObjectNotFoundException;
 

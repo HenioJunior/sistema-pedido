@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.crystaldata.sistemapedido.domain.Categoria;
+import com.crystaldata.sistemapedido.entities.Categoria;
 import com.crystaldata.sistemapedido.services.CategoriaService;
 
 @RestController
